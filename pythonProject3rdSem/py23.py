@@ -1,0 +1,11 @@
+#Program to find the Volume and surface area of a cuboid . sa= 2(lb+bh+hl)
+
+l=float(input("Enter length: "))
+b=float(input("Enter breadth: "))
+h=float(input("Enter height: "))
+a=(l*b*h)
+b=2*(l*b+b*h+h*l)
+volume=round(a,2)
+surface_area=round(b,2)
+print(f"The volume is {volume}")
+print(f"The surface area is {surface_area}")
